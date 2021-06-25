@@ -27,5 +27,5 @@ while arr[0] > 0 or arr[1] > 0 or arr[2] > 0:
             matrix[word_letter_symbol]=[]
             matrix[word_letter_symbol].extend(matrix_copy[word_letter_symbol])
         arr[word_letter_symbol]-=1
-print(password)
+print("here is your password: "password)
 
